@@ -1,0 +1,13 @@
+Classes:
+	Main
+		Conatins the main function. Runs the display class in a new thread
+	Display
+		Controls the window, including all tabs and buttons. Calls other classes as needed
+	FileOps
+		Reads, writes, and parses files
+	Regiment
+		Contains information on the active regiment (all of its statistics and such)
+	Character
+		Contains information on the player character
+		Note: Regement must be selected before PC can be made
+	
