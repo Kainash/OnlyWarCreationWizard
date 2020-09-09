@@ -5,9 +5,12 @@ public class Character {
    private int [] characteristics;
    private int cwounds, twounds, cfate, tfate, cexperience, texperience, aprarm, aplarm, aprleg, aplleg, aphead, apbody, tbrarm, tblarm, tbrleg, tblleg, tbhead, tbbody, skrarm, sklarm, skrleg, sklleg, skhead, skbody;
    private String appearance, aptitudes, charclass, cybernetics, demeanor, homeworld, kit, regiment, skills, special, talents, traits, notes, awrarm, awlarm, awrleg, awlleg, awhead, awbody;
-   
+   private Regiment yourRegiment;
    
    public Character() {
+      
+      //character's regiment
+      yourRegiment = new Regiment();
       
       //characteristics
       characteristics = new int[9];
